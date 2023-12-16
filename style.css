@@ -1,0 +1,22 @@
+body * {
+    box-sizing: border-box;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 50px;
+    border: 1px solid gainsboro;
+    width: 10%;
+}
+
+.treat {
+    background-color: tomato;
+}
+
+.cell.snake-present {
+    background-color: black;
+}
